@@ -39,6 +39,24 @@
 
 
 /*  hero contant */
+.Conatiner-flex-herosection{
+  display: flex;
+  margin-top: 2rem;
+  
+  
+}
+.inner-container-box{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  gap: 20rem;
+ 
+}
+.inner-container-box{
+ display: flex;
+ justify-content: center;
+}
 .herosection-heading-one{
   font-size: 4rem;
   font-weight: 800;

@@ -3,6 +3,7 @@ import React from 'react'
 function HeroSection() {
   return (
     <div className='Conatiner-flex-herosection'>
+        <div className='inner-container-box'>
         <div>
             <div className='herosection-heading-one'>
                 check your 
@@ -20,11 +21,9 @@ function HeroSection() {
             </div>
         </div>
         <div>
-            <img src='' />
+            <img src='/Image/Untitled-1 2.png' />
         </div>
-
-
-
+        </div>
     </div>
   )
 }
