@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+:root{
+  font-size: 62.5%;
+  --Font-Color:#1d4ed8;
+  --Heightlight-color:#d97706;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-container{
+  height: 5rem;
+  margin-top: 2rem;
+
+}
+.flex-justify-center {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 4rem;
+  font-size: 1.5rem; 
+}
+.flex-row{
+  display: flex;
+  gap: 4rem;
+  font-size: 1.8rem;
+  color:var(--Font-Color) ;
+}
+.flex-row-signin {
+  display: flex;
+  gap: 1rem;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+ 
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*navbar*/
+
+
+/*  hero contant */
+
