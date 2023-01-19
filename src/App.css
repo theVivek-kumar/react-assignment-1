@@ -39,4 +39,35 @@
 
 
 /*  hero contant */
-
+.herosection-heading-one{
+  font-size: 4rem;
+  font-weight: 800;
+}
+.herosection-heading-two{
+  font-size: 4.2rem;
+  font-weight: 800;
+}
+.herosection-heading-three{
+  font-size: 4rem;
+  font-weight: 800; 
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.button-flex{
+  display: flex;
+  gap: 4rem;
+}
+.button-one{
+  border-radius: 27px;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  font-size: 2rem;
+  background-color: var(--Heightlight-color);
+}
+.button-two{
+  border-radius: 27px;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  font-size: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

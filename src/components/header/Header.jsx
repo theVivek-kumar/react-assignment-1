@@ -24,7 +24,7 @@ function Header() {
 
         <div  className='flex-row-signin'>
             <div>SignIN</div>
-            <div>||</div>
+            <div>|</div>
             <div>Signout</div>
         </div>
         </div>
