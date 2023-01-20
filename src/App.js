@@ -14,7 +14,10 @@ function App() {
     <div className="App">
       <Header/>
       <HeroSection/>
+      <div className='flex-flow'><Card/>
       <Card/>
+      <Card/></div>
+      
       <Ourservice/>
       <ImageCard/>
       <CardRev/>

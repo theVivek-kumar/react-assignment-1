@@ -7,7 +7,7 @@
   --Light-blue:#EBF3FE;
   font-weight: 400;
    font-family: 'Montserrat', sans-serif;
-   background-color: #ffffff;
+   
   }
 
 .navbar-container{
@@ -54,6 +54,7 @@
 .Conatiner-flex-herosection{
   display: flex;
   margin-top: 2rem;
+ ;
   
   
 }
@@ -115,7 +116,7 @@
   word-wrap: break-word;
   text-align: center;
   border:1px solid rgba(255, 255, 255, 0.18);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  box-shadow: rgba(9, 17, 236, 0.24) 0px 3px 8px;
 }
 /* .glass{
   width: 30rem;
@@ -227,6 +228,7 @@
   position: absolute;
   display: flex;
   flex-direction: column;
+ 
 
 }
 .circle-shadow{
@@ -249,6 +251,7 @@
   width: 60%;
   word-wrap: break-word;
   color: var(--Font-Color);
+  
 
 }
 .display-card-flex-col{
@@ -327,3 +330,15 @@
   font-weight: 00;
  }
  
+ .flex-flow{
+  display: flex;
+  margin: auto;
+  width: 90%;
+  justify-content: space-around;
+ }
+ .div1{
+  width: 600rem;
+  height: 600rem;
+  border-radius: 50%;
+  background-color: #f69330;
+ }
