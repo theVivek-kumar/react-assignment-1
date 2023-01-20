@@ -17,11 +17,17 @@ function App() {
       <div className='flex-flow'><Card/>
       <Card/>
       <Card/></div>
+      <div className='flow'>
       
       <Ourservice/>
+      </div>
+      <div className='flow'>
       <ImageCard/>
+      </div>
       <CardRev/>
+      <div className='flow'>
       <Experiance/>
+      </div>
       <Subscribe/>
     </div>
   );
