@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className='navbar-container'>
         <div className="flex-justify-center">
-        <div>filcon</div>
+        <div className='logo-header'>FINCONIC</div>
         <div className='flex-row' >
             <div className='flex'>
                 Service <AiOutlineDown/>
